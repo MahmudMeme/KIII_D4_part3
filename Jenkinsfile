@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build image') {
-       app = docker.build("jenkins-jenkins-blueocean:latest")
+       app = docker.build("MahmudMeme/DII_D4part3")
         
     }
     stage('Push image') {   
