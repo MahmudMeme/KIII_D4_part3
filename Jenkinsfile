@@ -4,7 +4,7 @@ node {
         checkout scm
     }
     stage('Build image') {
-       app = docker.build("MahmudMeme/kiii_4_part3")
+       app = docker.build("mahmud740/kiii_4_part3")
         
     }
     stage('Push image') {   
